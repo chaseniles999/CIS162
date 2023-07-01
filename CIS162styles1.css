@@ -1,0 +1,57 @@
+body {
+    /* Styles for the body */
+    font-family: 'Arial', sans-serif;
+    background-color: #000000; /* black background */
+    color: #ffffff; /* white text color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* Styles for the header */
+    background-color: #1f1f1f; /* slightly lighter than black */
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    /* Styles for h1 headings */
+    font-size: 2em;
+    color: #f1c40f; /* yellow color for heading */
+}
+
+nav ul {
+    /* Styles for unordered lists in the navigation */
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* white color for nav links */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #f1c40f; /* yellow color on hover for nav links */
+}
+
+section {
+    /* Styles for sections */
+    padding: 20px;
+}
+
+footer {
+    /* Styles for the footer */
+    background-color: #1f1f1f; /* slightly lighter than black */
+    color: #ffffff; /* white color for footer text */
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
