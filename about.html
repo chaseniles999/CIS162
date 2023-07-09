@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- Language type-->
+<html lang="en">
+    <!-- Header of page-->
+    <head>
+        <style>
+        .container {
+            width: 200%; /* Adjust this value according to your needs */
+            margin: auto;
+        }
+        </style>        
+        <title> About </title>
+        <meta charset="utf-8">
+        <meta name="description" content="About me: chase.niles999">
+        <link rel="stylesheet" type="text/css" href="projectalphaaboutstyle1.css">
+    </head>
+    <!-- Body(For href replace the "#" with the link you create down the line) -->
+    <body>
+        <nav>
+            <ul>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="adventure.html">Adventure</a></li>
+            </ul>
+        </nav>
+    <div class="container">
+        <section id="leftColumn">
+            <h1>About Me</h1>
+
+            <!-- About page content below | -->
+
+        <h2>Goals</h2>
+        <ul>
+            <li>Certificate or above in Software Programming </li>
+            <li>To learn about diffrent Programming language's and their various algorithm's </li>
+            <li>Entry level job in Software Development or Computer Technology</li>
+        </ul>
+    </section>
+    <section id="rightColumn">
+    
+        <h2>Skills</h2>
+            <ul>
+                <li>Cooking</li>
+                <li>Communication</li>
+                <li>Creativity</li>
+            </ul>
+            <p> </p>
+    </section>
+    </div>
+
+    <img src="m1111.jpeg" alt="A picture of a Me" width="480" height="640">
+        <footer>
+            Last Updated: 7.9.23 <span id="Last-Updated"></span>
+            <p> </p>
+            <a href="mailto:fake.email@chaseniles.com">Email me today!</a>
+        </footer>
+        <!-- PREP INFRASTRUCTURE FOR AUTO UPDATE -->
+            <script>
+                var currentDate = new Date();
+                var dateString = currentDate.toDateString();
+                document.getElementById("last-updated").textContent = dateString;
+            </script>
+    </body>
+</html>

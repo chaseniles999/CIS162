@@ -1,0 +1,108 @@
+ /* FOR INDEX .HTML DOCUMENT FOR PROJECT1 */
+ body {
+    /* Styles for the body */
+    font-family: 'Arial', sans-serif;
+    background-color: #000000; /* black background */
+    color: #ffffff; /* white text color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* Styles for the header */
+    background-color: #1f1f1f; /* slightly lighter than black */
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    /* Styles for h1 headings */
+    font-size: 2em;
+    color: #ff0022; /* red color for heading */
+}
+
+h2 {
+    /* Styles for h1 headings */
+    font-size: 2em;
+    color: #ff0022; /* red color for heading */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+nav ul li {
+    margin: 0 10px; /* Adjust the value as needed */
+}
+
+nav ul {
+    /* Styles for unordered lists in the navigation */
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f9f3f3; /* black color for nav links */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #f10f0f; /* red color on hover for nav links */
+}
+
+#favorite-website {
+    text-align: center;
+}
+
+#favorite-website {
+    width: 50%;  /* Adjust width as necessary */
+    margin: 0 auto;  /* Top and bottom margins are 0, left and right margins are auto */
+    text-align: center;  /* Centers the text within the paragraph */
+}
+
+
+section {
+    /* Styles for sections */
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* This is needed if you have more than one line of text and you want them centered and stacked vertically */
+}
+
+footer {
+    /* Styles for the footer */
+    background-color: #ffffff5b; /* slightly lighter than black */
+    color: #ff0000; /* red color for footer text */
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.container {
+    display: flex;
+}
+
+#leftColumn {
+margin-top: 20px; /* Adjust this value according to your needs */
+text-align: center;
+}
+
+#rightColumn {
+margin-top: 30px; /* Adjust this value according to your needs */
+text-align: center;
+}
